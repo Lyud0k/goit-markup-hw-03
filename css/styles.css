@@ -366,6 +366,8 @@ text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    margin-bottom: 4px;
+    /* width: 322px; */
 
     letter-spacing: 0.06em;
     /* margin-bottom: 4px; */
@@ -401,7 +403,7 @@ text-decoration: none;
 }
 
 .indent-flex{
-   display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-basis: calc((100%-90px)/3);
     margin-right: -30px;
@@ -411,7 +413,7 @@ text-decoration: none;
  .indent-box{
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE;
+
 
     /* box-sizing: border-box;
      margin-bottom: var(--third-mar);
@@ -429,6 +431,8 @@ text-decoration: none;
  .indent-in{
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    border: 1px solid #EEEEEE;
 
      /* width: 322px;
      justify-content: center; */
