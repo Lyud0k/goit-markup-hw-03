@@ -70,8 +70,16 @@ img{
     .header {
         background: var(--color-main);
         text-decoration: none;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+      /*   position: absolute;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 80px; */
+
+border-bottom: 1px solid #ECECEC;
+
      }
 
      .header .conteiner{
@@ -182,6 +190,7 @@ margin: 0 auto;
 
 .duty-item {
     /*display: inline-block;*/
+    width: 270px;
  }
 .duty-item:not(:last-child){
     margin-right: var(--third-mar);
@@ -269,7 +278,7 @@ margin-bottom: 10px;
     border-radius: 4px;
     display: inline-block;
     padding: 6px 22px;
-
+    line-height: 1.62;
 }
 
 .team-bl:not(:last-child){
@@ -298,8 +307,8 @@ margin-bottom: 10px;
 
 .team-position {
 text-align: center;
-padding: 30px 60px;
-
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .footer {
@@ -357,8 +366,9 @@ text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; */
  }
 
  .betveen{
@@ -380,6 +390,7 @@ text-decoration: none;
     .team-line{
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: var(--fif-mar);
     }
  }
 .team-space{
@@ -390,28 +401,40 @@ text-decoration: none;
 }
 
 .indent-flex{
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
+    flex-basis: calc((100%-90px)/3);
+    margin-right: -30px;
+    margin-bottom: -30px;
 }
 
  .indent-box{
-     margin-bottom: var(--fif-mar);
-     border: 1px solid #EEEEEE;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+
+    /* box-sizing: border-box;
+     margin-bottom: var(--third-mar);
+   */ 
  }
 
- .indent-box:not(:nth-child(3n)){
-     margin-right: 10px;
- }
+ /* .indent-box + .indent-box{
+     margin-right: 30px;
+ } */
 
- .indent-box:nth-last-child(-n+3){
+ /* .indent-box:nth-last-child(-n+3){
     margin-bottom: 0;
-}
+} */
 
  .indent-in{
-     padding: 20px 24px;
- }
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+     /* width: 322px;
+     justify-content: center; */
+
 
  .space-pic{
-     display: inline-block;
-     margin-bottom: 20px;
- }
+     /* display: inline-block;
+     margin-bottom: 20px;*/
+ } 
